@@ -20,7 +20,7 @@ function idk:Setup(Window)
         })
         LStack:Image({
             Image = getcustomasset("WildHubPrime/assets/Ts.jpg"),
-            AspectRatio = "16:9",
+            AspectRatio = "1:1",
             Radius = 12
         })
     
