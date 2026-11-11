@@ -1,6 +1,6 @@
 local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/bWideitch/WindUI/refs/heads/main/dist/main.lua"))()
 local ts = game:GetService("TweenService")
-local idk = setmetatable({}, WindUI)
+local idk = setmetatable({}, {__index = WindUI})
 function idk:Setup(Window)
     local tabs = {}
     
