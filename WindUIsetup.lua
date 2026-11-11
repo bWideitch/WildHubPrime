@@ -19,7 +19,7 @@ function idk:Setup(Window)
             Desc = 'Ur welcome if ur not a guy named "aabbaaii"!'
         })
         LStack:Image({
-            Image = getcustomasset("WildHubPrime/assets/Ts.jpg"),
+            Image = "https://github.com/bWideitch/WildHubPrime/blob/main/assets/Ts.png?raw=true",
             AspectRatio = "1:1",
             Radius = 12
         })
