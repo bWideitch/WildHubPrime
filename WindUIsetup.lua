@@ -12,8 +12,8 @@ function idk:Setup(Window)
         })
     
         local Hstack = tabs.Intro:HStack()
-        local LStack = HStack:VStack()
-        local RStack = HStack:VStack()
+        local LStack = Hstack:VStack()
+        local RStack = Hstack:VStack()
         
         Hstack:Paragraph({
             Title = "Hello user!",
