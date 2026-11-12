@@ -18,11 +18,6 @@ function idk:Setup(Window)
             Title = "Hello user!",
             Desc = 'Ur welcome if ur not a guy named "aabbaaii"!'
         })
-        LStack:Image({
-            Image = "https://github.com/bWideitch/WildHubPrime/blob/main/assets/Ts.png?raw=true",
-            AspectRatio = "1:1",
-            Radius = 12
-        })
     
         RStack:Paragraph({
             Title = "What do we have?",
