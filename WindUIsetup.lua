@@ -17,7 +17,7 @@ function idk:Setup(Window)
         tabs.Intro:Paragraph({
             Title = "Hello user!",
             RichText = true,
-            Desc = '<font size=19><b>Have fun using Wild Hub!</b></font>\n"<u>you can use it like a drug, you can make ur gaming experience crazyy</u>"'
+            Desc = '<font size="19"><b>Have fun using Wild Hub!</b></font><br/><u>you can use it to make your gaming experience crazyy</u>'
         })
         tabs.Intro:Divider()
         
@@ -28,19 +28,19 @@ function idk:Setup(Window)
             Desc = "Sneak peeks and showcases will be shown on my socials!",
             Buttons = {
                 {Title = "Youtube", Callback = function() setclipboard(Youtube_Link) end},
-                {Title = "TikTok", Callback = function() setclipboard(TikTok_Link) end}
+                {Title = "TikTok", Callback = function() setclipboard(TikTok_Link) end},
+                
             }
         })
         LStack:Paragraph({
             Title = "» THIS SCRIPT DON'T HAVE KEY SYSTEM",
             RichText = true,
-            Desc = "• if you see this same script with a key system please <font size=15><b>report</b></font> it",
+            Desc = '• if you see this same script with a key system please <font size="15"><b>report</b></font> it'
         })
     
         local LSts = LStack:Section({
             Title = "Share Wild Hub with people you know!",
             Desc = "I would be grateful if you contribute on the popularity of Wild Hub!",
-            Icon = "send",
             Opened = true
         })
         LSts:Code({
