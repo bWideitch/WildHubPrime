@@ -16,14 +16,41 @@ function idk:Setup(Window)
         
         tabs.Intro:Paragraph({
             Title = "Hello user!",
-            Desc = 'Ur welcome if ur not a guy named "aabbaaii"!'
+            RichText = true,
+            Desc = '<font size=19><b>Have fun using Wild Hub!</b></font>\n"<u>you can use it like a drug, you can make ur gaming experience crazyy</u>"'
+        })
+        tabs.Intro:Divider()
+        
+        local Youtube_Link = ""
+        local TikTok_Link = ""
+        tabs.Intro:Paragraph({
+            Title = "Follow Wild Wide on Social Media!",
+            Desc = "Sneak peeks and showcases will be shown on my socials!",
+            Buttons = {
+                {Title = "Youtube", Callback = function() setclipboard(Youtube_Link) end},
+                {Title = "TikTok", Callback = function() setclipboard(TikTok_Link) end}
+            }
+        })
+        LStack:Paragraph({
+            Title = "» THIS SCRIPT DON'T HAVE KEY SYSTEM",
+            RichText = true,
+            Desc = "• if you see this same script with a key system please <font size=15><b>report</b></font> it",
+        })
+    
+        local LSts = LStack:Section({
+            Title = "Share Wild Hub with people you know!",
+            Desc = "I would be grateful if you contribute on the popularity of Wild Hub!",
+            Icon = "send",
+            Opened = true
+        })
+        LSts:Code({
+            Title = "Share it's loadstring!",
+            Code = 'loadstring(game:HttpGet("URL"))()'
         })
     
         RStack:Paragraph({
-            Title = "What do we have?",
-            Desc = [[This is Wild Hub... but prime!
-            • Basically this is a full revamp of the old Wild Hub script, a much better version that will actually have updates and no coderot!
-            • We dont have a discord server anymore, the old one is abandoned, our only Social Media will be Youtube and TikTok]]
+            Title = "What was OG Wild Hub?",
+            Desc = "OG Wild Hub didnt had \"prime\" on its name, it was a good script, unfortunately i lost motivation to my project and i fully lost its source code, lost a script hub with big potential..."
         })
     end
     
