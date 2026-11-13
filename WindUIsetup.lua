@@ -32,6 +32,8 @@ function idk:Setup(Window)
                 
             }
         })
+        task.wait()
+        
         LStack:Paragraph({
             Title = "» THIS SCRIPT DON'T HAVE KEY SYSTEM",
             RichText = true,
