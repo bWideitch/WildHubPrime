@@ -72,7 +72,7 @@ function idk:Setup(Window)
         
         tabs.Misc:Input({
             Title = "Input JobId",
-            Desc = "Input a JobId, its like the Id of a specific Server of the game that is active, so you can join later."
+            Desc = "Input a JobId, its like the Id of a specific Server of the game that is active, so you can join later.",
             Callback = function(a)
                 Job_id = a
             end
