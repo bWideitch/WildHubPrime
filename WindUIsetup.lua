@@ -210,8 +210,6 @@ function idk:Setup(Window)
         end)
     end
 
-    Window:SelectTab(tabs.Intro)
-
     return tabs
 end
 
